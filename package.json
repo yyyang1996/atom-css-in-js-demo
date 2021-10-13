@@ -1,0 +1,25 @@
+{
+  "name": "atom",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint ./src/**/* --fix"
+  },
+  "dependencies": {
+    "@pika/react": "^16.13.1",
+    "@pika/react-dom": "^16.13.1",
+    "@vue-reactivity/watch": "^0.1.2",
+    "@vue/reactivity": "^3.0.0",
+    "change-case": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "eslint": "^6.8.0",
+    "eslint-plugin-mikiya": "^0.3.7",
+    "typescript": "^4.0.3",
+    "vite": "^1.0.0-rc.1",
+    "vite-plugin-react": "^3.0.0"
+  }
+}
